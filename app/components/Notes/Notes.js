@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import NotesList from './NotesList'
 
-class Notes extends Component {
+export default class Notes extends Component {
     
     render(){
         return(
@@ -17,5 +17,3 @@ Notes.propTypes = {
     username: React.PropTypes.string.isRequired,
     notes: React.PropTypes.array.isRequired
 }
-
-export default Notes

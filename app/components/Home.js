@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {render} from 'react-dom'
 
-class Home extends Component {
+export default class Home extends Component {
     render(){
         return(
             <h2 className="text-center">
@@ -10,5 +10,3 @@ class Home extends Component {
         )
     }
 }
-
-export default Home

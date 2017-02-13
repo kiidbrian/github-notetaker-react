@@ -8,7 +8,7 @@ import Notes from './Notes/Notes'
 import helpers from '../utils/helper'
 
 
-class Profile extends Component {
+export default class Profile extends Component {
     // mixins: [ReactFireMixin],
     // mixins: [Router.State],
     constructor(props){
@@ -60,5 +60,3 @@ class Profile extends Component {
         )
     }
 }
-
-export default Profile

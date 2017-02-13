@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {findDOMNode} from 'react-dom'
 import {Router, hashHistory} from 'react-router'
 
-class SearchGithub extends Component {
+export default class SearchGithub extends Component {
     constructor(){
         super()
         this.state = {
@@ -44,5 +44,3 @@ class SearchGithub extends Component {
         )
     }
 }
-
-export default SearchGithub

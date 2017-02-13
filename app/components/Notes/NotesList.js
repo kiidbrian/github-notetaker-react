@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import {render} from 'react-dom'
 
-class NotesList extends Component {
+export default class NotesList extends Component {
     render(){
-        const notes = this.props.notes.map(function(note,index){
+        const notes = this.props.notes.map((note,index) => {
             return <li className="list-group-item" key={index}> {note} </li>
         });
         return(
@@ -13,5 +13,3 @@ class NotesList extends Component {
         )
     }
 }
-
-export default NotesList
